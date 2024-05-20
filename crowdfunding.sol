@@ -1,12 +1,3 @@
-//Two Person (i)Manager (ii)Donator(Contributors)
-//Manger has show Target:- Why required fund.
-//Manager has show particular amount for target.
-//Manager has set Deadline:- Funding balance are complete before particular Date.
-//Manager has set minContribution:- How much minimum money doneted by donater.
-//Donator donate the money in any Smart Contract Sytem.
-//When manager has required money then manager should be get permission(>50% Donator) with Donator after withraw the money from smart contract System.
-//If amount are not complete on the set deadline then Donator are withdraw money from Smart Contract System.
-
 //SPDX-Licence-Identifier: GPL-3.0
 
 // SPDX-License-Identifier: MIT
@@ -106,3 +97,14 @@ contract CrowdFunding {
         thisRequest.completed = true;
     }
 }
+
+
+//SUMMARY OF PROJECTS
+//Two Person (i)Manager (ii)Donator(Contributors)
+//Manger has show Target:- Why required fund.
+//Manager has show particular amount for target.
+//Manager has set Deadline:- Funding balance are complete before particular Date.
+//Manager has set minContribution:- How much minimum money doneted by donater.
+//Donator donate the money in any Smart Contract Sytem.
+//When manager has required money then manager should be get permission(>50% Donator) with Donator after withraw the money from smart contract System.
+//If amount are not complete on the set deadline then Donator are withdraw money from Smart Contract System.
